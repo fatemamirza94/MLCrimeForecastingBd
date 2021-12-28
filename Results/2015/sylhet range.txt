@@ -1,0 +1,76 @@
+
+=================================================================
+Predicted values for target
+[ 2.76650447e+01  3.91530284e+01  2.74208176e+02  7.08799045e+01
+  3.02275216e+01  9.30185336e+02  4.46841673e+01  4.96004857e+01
+  9.46169709e+01  3.33196900e+02  5.44242208e+03  5.34144809e+00
+ -1.03361857e+00  1.57752942e+03  1.72323140e+02]
+linear regression score
+99.97773653249439 %
+=================================================================
+Predicted values for target
+[  26   26  252   70  943  943   26   43   76  326 5442   54   54 1575
+  211]
+logistic regression score
+80.0 %
+=================================================================
+Predicted values for target
+[  35.           34.75        239.75         36.25         30.
+  943.           34.75         34.75         76.          326.
+ 5442.           35.           30.         1575.          224.66666667]
+adaboost regression score
+99.98861118385705 %
+=================================================================
+Predicted values for target
+[2.69994740e+01 2.60396754e+01 2.51940439e+02 7.04213768e+01
+ 3.90981440e+00 9.42875694e+02 3.26667785e+01 4.29836219e+01
+ 7.59616304e+01 3.25888781e+02 5.44158641e+03 5.34157007e+01
+ 1.05629285e+01 1.57480455e+03 2.10943129e+02]
+grad boost regression score
+99.99998955196199 %
+[17:53:00] WARNING: /workspace/src/objective/regression_obj.cu:152: reg:linear is now deprecated in favor of reg:squarederror.
+=================================================================
+Predicted values for target
+[  30.780016   28.995852  242.8721     69.38471     9.244991  935.95013
+   28.995852   42.38773    83.16969   334.98807  5432.857      42.38773
+    9.244991 1580.7722    211.40054 ]
+x grad boost regression score
+99.99780632620369 %
+=================================================================
+Predicted values for target
+[  38.   38.  263.   38.   38.  943.   38.   38.   38.  263. 5442.   38.
+   38. 1575.  263.]
+regression tree score
+99.95737662154826 %
+/usr/local/lib/python3.6/dist-packages/sklearn/linear_model/_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
+=================================================================
+Predicted values for target
+[2.65402233e+01 2.55291962e+01 2.50651113e+02 6.94638908e+01
+ 3.49441985e+00 9.38149086e+02 3.25351305e+01 4.24639940e+01
+ 7.60301607e+01 3.29799744e+02 4.83502039e+03 5.43679150e+01
+ 1.05002854e+01 1.52036847e+03 2.10684703e+02]
+Support Vector Regression Score
+98.65940029065146 %
+=================================================================
+Predicted values for target
+[  40.16722222   37.2434127   248.27111111   45.57555556   29.67674603
+  932.4          37.2434127    38.16722222  110.24417989  312.77111111
+ 4410.8          40.16722222   29.67674603 1402.53333333  227.8615873 ]
+Random Forest Regressor Score
+96.04048919763369 %
+=================================================================
+Predicted values for target
+[  26   26  252   70    3  943   33   43   76  326 5442   54   11 1575
+  211]
+Multi Layer Perceptron Score
+100.0 %
+=================================================================
+/usr/local/lib/python3.6/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:571: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  % self.max_iter, ConvergenceWarning)
